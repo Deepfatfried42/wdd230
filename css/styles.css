@@ -12,9 +12,9 @@ header, main, footer {
 header {
     font-family: 'Inria Serif', serif;
     margin: 1rem auto;
-    border: 5px solid plum;
+    border: 5px solid rgb(59, 106, 206);
     padding: 0.5rem;
-    background-color: purple;
+    background-color: rgb(32, 154, 158);
     display: grid;
     grid-template-columns: 100px 1fr;
     align-items: center;
@@ -34,9 +34,9 @@ h2 {
 footer {
     font-family: 'Inria Serif', serif;
     margin: 1rem auto;
-    border: 5px solid plum;
+    border: 5px solid rgb(59, 106, 206);
     padding: 0.5rem;
-    background-color: purple;
+    background-color: rgb(32, 154, 158);
     display: grid;
     align-items: center;
     text-align: center;
