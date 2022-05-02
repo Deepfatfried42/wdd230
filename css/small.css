@@ -4,8 +4,8 @@ body {
     font-size: 14px;
 }
 
-header, main, footer {
-    max-width: 700px;
+header, footer {
+    
     margin: 0 auto;
 }
 
@@ -15,21 +15,8 @@ header {
     border: 5px solid rgb(59, 106, 206);
     padding: 0.5rem;
     background-color: rgb(32, 154, 158);
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    align-items: center;
+    grid-template-columns: auto;
     text-align: center;
-}
-
-h1 {
-    font-size: 22px;
-    margin : 1rem;
-
-}
-
-h2 {
-    font-size: 18px;
-    margin: 2rem;
 }
 
 footer {
@@ -43,3 +30,20 @@ footer {
     text-align: center;
 }
 
+section {
+    max-width: 384px;
+    margin: 1rem auto;
+    grid-template-columns: auto;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Inria Serif', serif;
+    margin: 1rem auto;
+    border: 5px solid rgb(59, 106, 206);
+    padding: 0.5rem;
+    background-color: rgb(32, 154, 158);
+    grid-template-columns: auto;
+    text-align: center;
+}
