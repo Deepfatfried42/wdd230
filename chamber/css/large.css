@@ -1,7 +1,17 @@
 @media only screen and (min-width: 64rem) {
 
-nav ul li a {
+nav button {display: none;}
 
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-left: 2vw;
+   
+
+}
+
+nav ul li a {
+    
     padding: .5rem 1rem;
 
 }
