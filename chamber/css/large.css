@@ -1,9 +1,11 @@
 @media only screen and (min-width: 64rem) {
 
 nav button {display: none;}
+nav{
+    flex-direction: row;
+}
 
-
-nav ul {
+nav ul#primaryNav {
     display: flex;
     justify-content: center;
     margin-left: 2vw;
