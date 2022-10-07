@@ -8,10 +8,10 @@ nav button {
     
 }
 nav{
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     align-items:center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgba(50,18,122);
     color:rgba(244,240,236,0.3);
 }
@@ -63,3 +63,4 @@ footer {
     display: flex;
     justify-content: center;
 }
+
